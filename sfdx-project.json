@@ -3,10 +3,14 @@
     {
       "path": "force-app",
       "default": true
+    },
+    {
+      "path": "dc-app",
+      "default": false
     }
   ],
   "name": "DataCloud2GPPOCs",
-  "namespace": "",
+  "namespace": "jhddc",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "59.0"
 }
