@@ -1,7 +1,7 @@
 {
   "orgName": "Data Cloud Scratch Org",
   "edition": "Developer",
-  "features": ["CustomerDataPlatform","EnableSetPasswordInApi"],
+  "features": ["CustomerDataPlatform","EnableSetPasswordInApi","MarketingUser"],
   "settings": {
     "securitySettings": {
         "passwordPolicies": {
