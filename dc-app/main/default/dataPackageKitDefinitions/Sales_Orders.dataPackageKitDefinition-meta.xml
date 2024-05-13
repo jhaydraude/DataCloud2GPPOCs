@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataPackageKitDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>Sales_Orders</developerName>
+    <isDeployed>false</isDeployed>
+    <isEnabled>false</isEnabled>
+    <masterLabel>Sales Orders</masterLabel>
+    <versionNumber>2.0</versionNumber>
+</DataPackageKitDefinition>

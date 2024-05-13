@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceObject xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataSource>DataCloud2GPPOC</dataSource>
+    <dataSourceFields>
+        <fullName>customer_id</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>customer_id</externalName>
+        <fieldFormula>sourceField[&apos;customer_id&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_customer_id</keyQualifierName>
+        <masterLabel>customer_id</masterLabel>
+        <primaryIndexOrder>1</primaryIndexOrder>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSource</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSource</externalName>
+        <fieldFormula>&apos;DataCloud2GPPOC&apos;</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>true</isFormula>
+        <keyQualifierName>KQ_DataSource</keyQualifierName>
+        <masterLabel>Data Source</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSourceObject</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSourceObject</externalName>
+        <fieldFormula>env[&apos;filename&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>true</isFormula>
+        <keyQualifierName>KQ_DataSourceObject</keyQualifierName>
+        <masterLabel>Data Source Object</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>dob</fullName>
+        <datatype>D</datatype>
+        <dateFormat>yyyy-MM-dd</dateFormat>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>dob</externalName>
+        <fieldFormula>sourceField[&apos;dob&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_dob</keyQualifierName>
+        <masterLabel>dob</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber>1.0</versionNumber>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>email</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>email</externalName>
+        <fieldFormula>sourceField[&apos;email&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_email</keyQualifierName>
+        <masterLabel>email</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>first_name</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>first_name</externalName>
+        <fieldFormula>sourceField[&apos;first_name&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_first_name</keyQualifierName>
+        <masterLabel>first_name</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>InternalOrganization</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>InternalOrganization</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>true</isFormula>
+        <keyQualifierName>KQ_InternalOrganization</keyQualifierName>
+        <masterLabel>Internal Organization</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>last_name</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>last_name</externalName>
+        <fieldFormula>sourceField[&apos;last_name&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_last_name</keyQualifierName>
+        <masterLabel>last_name</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>outdoor_interest</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>outdoor_interest</externalName>
+        <fieldFormula>sourceField[&apos;outdoor_interest&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_outdoor_interest</keyQualifierName>
+        <masterLabel>outdoor_interest</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <externalRecordIdentifier>Customers.csv</externalRecordIdentifier>
+    <masterLabel>Customers</masterLabel>
+    <objectType>Object</objectType>
+    <sourceObject>jhddc__Customers__dll</sourceObject>
+</DataSourceObject>

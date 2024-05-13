@@ -6,11 +6,24 @@
     },
     {
       "path": "dc-app",
-      "default": false
+      "default": false,
+      "package": "SimpleDataKitPackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "",
+      "dependencies": [
+        {
+          "package": "04t5Y000001MkFa"
+        }
+      ]
     }
   ],
   "name": "DataCloud2GPPOCs",
   "namespace": "jhddc",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "59.0"
+  "sourceApiVersion": "60.0",
+  "packageAliases": {
+    "SimpleDataKitPackage": "0Ho8b0000004CEhCAM",
+    "SimpleDataKitPackage@0.1.0-1": "04t8b000000jtqzAAA"
+  }
 }
